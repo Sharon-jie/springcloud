@@ -2,7 +2,7 @@ server:
   port: 8091
 spring:
   application:
-    name: controller
+    name: contoller
   rabbitmq:
     host: 172.22.162.106
     port: 5672
