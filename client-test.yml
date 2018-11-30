@@ -5,3 +5,6 @@ spring:
     name: client
 env:
   test
+user:
+  name:dede
+  age:11
