@@ -1,12 +1,12 @@
 server:
   port: 8091
 spring:
-  application:
-    name: contoller
   rabbitmq:
     host: 172.22.162.106
     port: 5672
     username: guest
     password: guest
+  application:
+    name: contoller
 env:
   dev
