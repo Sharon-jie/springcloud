@@ -2,6 +2,6 @@ server:
   port: 8090
 spring:
   application:
-    name: clients
+    name: client
 env:
   dev
