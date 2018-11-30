@@ -3,5 +3,10 @@ server:
 spring:
   application:
     name: controller
+  rabbitmq:
+    host: 172.22.162.106
+    port: 5672
+    username: guest
+    password: guest
 env:
   dev
