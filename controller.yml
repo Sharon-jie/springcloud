@@ -10,3 +10,6 @@ spring:
     name: contoller
 env:
   dev
+user:
+  name: lili
+  age: 11
