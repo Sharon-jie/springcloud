@@ -14,9 +14,11 @@ spring:
         input:
           destination: myMessgae
           group: stream
+          content-type: application/json
         output:
           destination: myMessgae
           group: stream
+          content-type: application/json
 env:
   dev
 user:
