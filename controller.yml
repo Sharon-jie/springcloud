@@ -13,8 +13,10 @@ spring:
       bindings:
         input:
           destination: myMessgae
+          group: stream
         output:
           destination: myMessgae
+          group: stream
 env:
   dev
 user:
