@@ -1,7 +1,7 @@
 server:
   port: 8092
 spring:
-application:
+  application:
     name: client
 env:
   test
