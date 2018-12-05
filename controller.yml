@@ -8,6 +8,13 @@ spring:
     password: guest
   application:
     name: contoller
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: myMessgae
+        output:
+          destination: myMessgae
 env:
   dev
 user:
