@@ -6,5 +6,4 @@ application:
 env:
   test
 user:
-  name:dede
-  age:11
+  dede
